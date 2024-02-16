@@ -1,0 +1,32 @@
+* {margin: 0px; border: 0px;}
+
+body {background-color:blanchedalmond;}
+
+#contenedor {width: 75%; margin: 30px auto 30px auto;}
+
+main {display: flex;}
+
+header {background-color: beige;}
+header img {width: 100%; vertical-align: bottom;}
+aside {width: 25%; padding: 20px; background-color: antiquewhite;}
+
+p1 {text-align: center;}
+h1 {text-align: center;}
+nav{background-color: blanchedalmond;}
+.main-links {display: flex;gap: 1rem; list-style: none;}
+.main-links li {padding: .5rem 1rem;background-color: blanchedalmond;}
+.dropdown-li{position: relative;}
+.dropdown-li:hover .dropdown {display: block;     opacity: 1;}
+.dropdown {background-color: rgb(232, 231, 241); margin: 0;padding: 0;width: 100%;position: absolute;    left: 0;    top: 100%;opacity: 0;display: none;}
+.dropdown li {list-style: none;background-color: blanchedalmond;}
+aside img {height:250px;width: 100px;; margin: 20px auto; display: block;}
+article video {width: 70%;
+	margin: 20px auto;
+	display: block;}
+section {width: 60%; padding: 15px;display: flex; 
+         flex-direction: row;flex-wrap: wrap;justify-content: space-between;background-color:blanchedalmond;}
+section img {width: 45%; height: 45%;}
+footer {padding: 10px; text-align: center; background-color: blanchedalmond;}
+footer p {margin-bottom: 10px; color: black;}
+footer div img{height: 50px;width: 50px;}
+#promociones {width: 40%; height: auto;}

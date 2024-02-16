@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+
+  header {text-align: center;}
+header img {width: 700; height: 200px;}
+
+  nav {background-color: blanchedalmond;}
+  .main-links {display: flex;gap: 1rem; list-style: none;}
+.main-links li {padding: .5rem 1rem;background-color: blanchedalmond;}
+.dropdown-li{position: relative;}
+.dropdown-li:hover .dropdown {display: block;     opacity: 1;}
+.dropdown {background-color: blanchedalmond; margin: 0;padding: 0;width: 100%;position: absolute;    left: 0;    top: 100%;opacity: 0;display: none;}
+.dropdown li {list-style: none;background-color: blanchedalmond;}
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  align-items: center;}
+footer{background-color: gray; text-align: center;}
+footer h3 {text-align: center;}
+footer h4 {text-align: center;}
+  footer iframe {width: 100%;}
+  footer div img{height: 50px;width: 50px;}

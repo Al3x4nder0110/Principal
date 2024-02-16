@@ -1,0 +1,52 @@
+.fondo{
+    background-color: peru;
+}
+#contenedor {
+    width: 80%;
+    margin: 30px auto 30px auto;
+
+}
+.logo {
+    
+    width: 75%; height: 200px;
+}
+nav{background-color: blanchedalmond;}
+main {display: flex;}
+
+header {background-color: blanchedalmond;text-align: center;}
+header img {width: 700px; height: 200px;}
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+aside img {
+	width: 100%;
+	padding: 20px 0px;
+}
+p1 {text-align: center;}
+h1 {text-align: center;}
+.videocentro {
+    width: 100%;
+}
+
+.main-links {display: flex;gap: 1rem; list-style: none;}
+.main-links li {padding: .5rem 1rem;background-color: blanchedalmond;}
+.dropdown-li{position: relative;}
+.dropdown-li:hover .dropdown {display: block;     opacity: 1;}
+.dropdown {background-color: blanchedalmond; margin: 0;padding: 0;width: 100%;position: absolute;    left: 0;    top: 100%;opacity: 0;display: none;}
+.dropdown li {list-style: none;background-color: blanchedalmond;}
+article h2 {color: blue;}
+aside img {height:250px;width: 100px;; margin: 20px auto; display: flex;}
+aside iframe {position: relative;}
+section {height:200px;width: 50%; padding: 5px;display: flex; flex-direction: row;flex-wrap: wrap;justify-content: space-between;background-color:blanchedalmond;}
+footer {padding: 10px; text-align: center; background-color: blanchedalmond;}
+
+footer p {margin-bottom: 10px; color: black;}
+
+footer img {
+	width: 5%;
+    height: 5%;
+}
+footer div img{height: 50px;width: 50px;}
+

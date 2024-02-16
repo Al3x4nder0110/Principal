@@ -1,0 +1,42 @@
+* {margin: 0px; border: 0px;}
+
+body {background-color: orange;}
+
+#contenedor {width: 75%; margin: 30px auto 30px auto;}
+
+header {background-color: beige;}
+
+header h1 {padding: 20px; text-align: center; color: chocolate}
+
+header img {width: 70%; height: auto;}
+
+nav{background-color:blue;}
+
+nav a {padding: 10px; display: inline-block; color: red;}
+
+main {display: flex;}
+
+nav{background-color: blanchedalmond;}
+.main-links {display: flex;gap: 1rem; list-style: none;}
+.main-links li {padding: .5rem 1rem;background-color: blanchedalmond;}
+.dropdown-li{position: relative;}
+.dropdown-li:hover .dropdown {display: block;     opacity: 1;}
+.dropdown {background-color: rgb(232, 231, 241); margin: 0;padding: 0;width: 100%;position: absolute;    left: 0;    top: 100%;opacity: 0;display: none;}
+.dropdown li {list-style: none;background-color: blanchedalmond;}
+
+
+
+aside {width: 25%; padding: 20px; background-color: antiquewhite;}
+
+aside img {height:250px;width: 100px;; margin: 20px auto; display: block;}
+
+section {width: 50%; padding: 5px;display: flex; flex-direction: row;flex-wrap: wrap;justify-content: space-between;background-color: white;}
+
+section figure {width: 30%; margin-top: 10px;margin-bottom: 10px;border:1px solid blue}
+
+section figure img {width: 80%; margin: 5px auto 5px auto;display:block; overflow: hidden;}
+
+section figure figcaption {margin: 10px; text-align: center;}
+footer {padding: 10px; text-align: center; background-color: blanchedalmond;}
+footer p {margin-bottom: 10px; color: black;}
+footer div img{height: 50px;width: 50px;}
